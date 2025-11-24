@@ -2,28 +2,61 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins;
+  font-family: Poppins !important;
   scrollbar-width: none;
 }
 .container {
   width: 100%;
 }
+.user_btn_login {
+  color: black !important;
+  background-color: white !important;
+  border-radius: 50% !important;
+  border: none !important;
+  padding: 10px;
+  margin-right: 22px;
+}
+.user_btn_login:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.btn_login {
+  background-color: transparent;
+  border: none;
+  color: white;
+  transition: background-color 0.2s ease;
+  margin-right: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.carousel-item img {
+  object-fit: contain;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+}
+.login_user {
+  width: 35px;
+  height: 35px;
+}
 .card {
   width: 350px;
   height: 400px;
+  border-radius: 28px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  border: none !important;
+  padding: 0px 0px 10px 0px !important;
 }
 .card img {
   width: 100%;
   height: 400px;
 }
 .navbar {
-  /* background-color: #333; */
-  /* background: #ED078B; */
-  background: linear-gradient(
-    90deg,
-    rgba(237, 7, 139, 0.9) 0%,
-    rgba(88, 28, 255, 1) 100%
-  );
+  background-color: #fca311;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 Nav .navbar-nav li a {
   color: aliceblue;
@@ -49,17 +82,17 @@ Nav .navbar-nav li a {
 
 #carouselExampleSlidesOnly {
   margin: auto;
-  margin-top: 100px;
+  margin-top: 80px !important;
   height: 800px;
-  width: 90%; /* កំណត់កម្ពស់ */
+  width: 90% !important; /* កំណត់កម្ពស់ */
   margin-bottom: -150px;
 }
 
 #carouselExampleSlidesOnly img {
   border-radius: 30px;
   height: 600px;
-  width: 90%;
-  object-fit: cover; /* កាត់រូបឲ្យសម */
+  width: 100% !important;
+  object-fit: cover !important; /* កាត់រូបឲ្យសម */
 }
 .details_btn {
   background-color: transparent;
@@ -71,7 +104,13 @@ Nav .navbar-nav li a {
   background-color: black !important;
   color: white !important;
 }
-
+.navbar-brand {
+  font-size: 22px !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-top: 13px;
+}
 .btn {
   outline: 1px solid black !important;
   border-radius: 10px !important;
@@ -100,66 +139,197 @@ Nav .navbar-nav li a {
   display: grid;
   grid-template-columns: 1fr;
 }
-
+.user_btn {
+  color: black !important;
+  background-color: white !important;
+  outline: none !important;
+}
+.card-title::after {
+  content: " $";
+  color: red !important;
+  font-weight: 600;
+}
+.card-title {
+  content: " $";
+  color: red !important;
+  font-weight: 600;
+}
+.login_setup {
+  visibility: hidden;
+  margin-top: -30px;
+}
+.section_footer ul li a{
+  text-decoration: none !important;
+  color: rgb(255, 255, 255) !important;
+  list-style-type: none !important;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+  text-decoration: none !important;
+  transition: transform 0.2s ease;
+}
+.section_footer ul li a:hover {
+  color: black !important;
+  transform: translateX(10px);
+}
+.section_footer h4 {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: white !important;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+.section_footer h4:hover {
+  color: black !important;
+  transform: translateX(10px);
+}
+.contact_us li {
+  margin-bottom: 10px;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+.row_footer {
+  background-color: #fca311;
+  padding: 40px 20px;
+  width: 100%;
+}
+.footer_hover {
+  transition: transform 0.2s ease;
+}
+.footer_hover:hover {
+  color: black !important;
+  transform: translateX(5px);
+  cursor: pointer;
+}
+.logo_footer img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 18px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+.logo img{
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 10px;
+}
+.logo_footer img:hover {
+  transform: scale(1.1);
+}
+.logo_footer p {
+  font-size: 14px;
+  text-align: center;
+  color: white !important;
+}
+.logo_footer h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon_footer {
+  width: 30px;
+  height: 30px;
+  color: white !important;
+  transition: transform 0.2s ease;
+}
 @media (max-width: 768px) {
   #carouselExampleSlidesOnly img {
     height: 400px;
     width: 90%;
   }
-  .title_hero{
+  .title_hero {
     font-size: 28px !important;
     font-weight: bold;
   }
 
   #carouselExampleSlidesOnly {
-  margin: auto;
-  margin-top: 60px;
-  height: 600px;
-  width: 99%; /* កំណត់កម្ពស់ */
-  margin-bottom: -150px;
-}
-.row{
+    margin: auto;
+    margin-top: 60px;
+    height: 600px;
+    width: 99%; /* កំណត់កម្ពស់ */
+    margin-bottom: -150px;
+  }
+  .row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
-.col-1{
+  }
+  .sticky-col {
     order: 2;
-}
-.col-6{
+  }
+  .main_container {
     order: 1;
-}
-.col-5{
+  }
+  .product-info {
     order: 3;
-}
-.sticky-col{
+  }
+  .sticky-col {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3px;
-}
-.thumb_img{
+  }
+  .thumb_img {
     width: 80px;
     height: 100px;
-}
-.main_img{
+  }
+  .main_img {
     /* width: 200px;
     height: 220px; */
     margin-top: 10px;
     width: 330px;
     height: auto;
-    border-radius: 15px;  
+    border-radius: 15px;
     margin-right: 30px;
-}
-.container{
+  }
+  .container {
     width: 100%;
-    background-color: red;
-}
-.main_container{
+  }
+  .main_container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
+  .login {
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+  }
+  .login_setup {
+    margin-left: 13px;
+    margin-top: 1px;
+    visibility: visible;
+  }
+  .user_btn {
+    padding: 0px;
+    font-size: 14px !important;
+  }
+  .navbar {
+    margin: 0;
+  }
+  .navbar-brand {
+    font-size: 22px !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    margin-top: 10px;
+  }
+  .row_footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

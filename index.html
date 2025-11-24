@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Psa Krobau-Shope</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="details.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=16584&format=png&color=000000"
+        type="image/x-icon">
     <!-- bootstrap css and js cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nvhttps://img.icons8.com/?size=100&id=16584&format=png&color=0000007wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <!-- bootstrap css and js cdn -->
 
@@ -19,10 +22,14 @@
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 </head>
 
-<body id="vanta-bg">
-    <nav class="navbar navbar-expand-lg w-100 fixed-top">
+<body>
+    <nav class="navbar nav_fix navbar-expand-lg w-100 fixed-top px-2">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Psa Krobau</a>
+            <div class="logo">
+                <img style="width: 55px; height: 55px;"
+                    src="https://img.icons8.com/?size=100&id=wO7uLQ2bXGP-&format=png&color=000000" alt="">
+                <a class="navbar-brand" href="#">Psa Krobau</a>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,10 +54,24 @@
                             <li><a class="dropdown-item" href="#">Women-Shoes</a></li>
                             <li><a class="dropdown-item" href="#">Men-Shoes</a></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <div class="login_setup d-flex justify-content-start align-items-center">
+                                    <button type="button" class="btn user_btn" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModalToggle">Signin</button>
+                                    <button type="button" class="btn user_btn" data-bs-target="#exampleModalToggle"
+                                        data-bs-toggle="modal">SignUp</button>
+                                </div>
+                            </li>
                         </ul>
                     </li>
                 </ul>
             </div>
+        </div>
+        <div class=" login d-flex justify-content-start align-items-center">
+            <button type="button" class="btn_login" data-bs-toggle="modal"
+                data-bs-target="#exampleModalToggle">Account</button>
+            <button type="button" class="user_btn_login" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                    class="login_user" data-lucide="user"></i></button>
         </div>
     </nav>
 
@@ -83,8 +104,8 @@
                 <div class="card">
                     <img src="/MEN/1.1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -101,8 +122,8 @@
                 <div class="card">
                     <img src="/MEN/7.3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -118,8 +139,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -135,8 +156,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -152,8 +173,8 @@
                 <div class="card">
                     <img src="/MEN/1.1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -170,8 +191,8 @@
                 <div class="card">
                     <img src="/MEN/7.3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -187,8 +208,25 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
+                        <div class="btn_card d-flex justify-content-start align-items-center">
+                            <a href="#" class="btn btn-success "> <i class="icon_btn_card"
+                                    data-lucide="shopping-cart"></i>Addbtn_add to Cart</a>
+                            <button type="button" class="btn detail_btn" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                <i class="icon_btn_card" data-lucide="book-open"></i>Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex gx-4">
+                <div class="card">
+                    <img src="/MEN/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -204,8 +242,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -221,8 +259,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -238,8 +276,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -255,8 +293,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -272,8 +310,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -289,8 +327,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -306,8 +344,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -323,8 +361,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -340,8 +378,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -357,8 +395,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -374,25 +412,8 @@
                 <div class="card">
                     <img src="/MEN/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
-                        <div class="btn_card d-flex justify-content-start align-items-center">
-                            <a href="#" class="btn btn-success"> <i class="icon_btn_card"
-                                    data-lucide="shopping-cart"></i>Add to Cart</a>
-                            <button type="button" class="btn detail_btn" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                <i class="icon_btn_card" data-lucide="book-open"></i>Details
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 d-flex gx-4">
-                <div class="card">
-                    <img src="/MEN/3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -408,8 +429,8 @@
                 <div class="card">
                     <img src="/MEN/7.3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -425,8 +446,8 @@
                 <div class="card">
                     <img src="/MEN/8.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -442,8 +463,8 @@
                 <div class="card">
                     <img src="/MEN/4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -459,8 +480,8 @@
                 <div class="card">
                     <img src="/MEN/7.3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text"> Nike Dunk Low GORE-TEX </p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -476,8 +497,8 @@
                 <div class="card">
                     <img src="/MEN/8.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example</p>
+                        <h5 class="card-title">199.99</h5>
+                        <p class="card-text">Nike Dunk Low GORE-TEX</p>
                         <div class="btn_card d-flex justify-content-start align-items-center">
                             <a href="#" class="btn btn-success"> <i class="icon_btn_card"
                                     data-lucide="shopping-cart"></i>Add to Cart</a>
@@ -491,24 +512,6 @@
             </div>
         </div>
     </div>
-
-    <script>
-        VANTA.NET({
-            el: "#vanta-bg",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0x000000,
-            backgroundColor: 0xffffff,
-            points: 32.00,
-            maxDistance: 16.00,
-            spacing: 19.00
-        })
-    </script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
         lucide.createIcons();
@@ -531,44 +534,132 @@
                     <div class="container" style="margin-top: 10px;">
                         <div class="row gx-5">
                             <!-- Thumbnail -->
-                            <div class="col-1">
                                 <div class="sticky-col">
                                     <img class="thumb_img" src="MEN/5.1.jpg" alt="">
                                     <img class="thumb_img" src="MEN/5.2.jpg" alt="">
                                     <img class="thumb_img" src="MEN/5.3.jpg" alt="">
                                     <img class="thumb_img" src="MEN/5.4.jpg" alt="">
                                 </div>
-                            </div>
                             <!-- Main Product -->
-                            <div class="col-6">
                                 <div class="main_container">
                                     <img class="main_img" src="MEN/5.jpg" alt="">
                                 </div>
-                            </div>
                             <!-- Product information -->
-                            <div class="col-5">
-                                <h2>Nike Sport</h2>
-                                <p>Lorem ipsum dolor sit 
-                                </p>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">
-                                    Check Out
-                                </button>
-                            </div>
+                                <div class="product-info p-4">
+                                    <h3 class="pro_title_detail">Multifunctional Outdoor</h3>
+                                    <p class="pro_desc">Take maximum cushioning to the extreme in the Vomero Premium.
+                                        Two energy
+                                        boosting Air Zoom units are surrounded by ultrasoft, responsive ZoomX foam to
+                                        give you our most
+                                        comfortable ride yet for everyday road runs.</p>
+                                    <div class="price_container">
+                                        <p class="pro_price">US $35.41</p>
+                                        <div class="star d-flex" style="margin-bottom: 35px;">
+                                            <!-- <i style="background-color: red;overflow: hidden;" class="star_mark" data-lucide="star"></i>
+                                            <i class="star_mark" data-lucide="star"></i>
+                                            <i class="star_mark" data-lucide="star"></i>
+                                            <i class="star_mark" data-lucide="star"></i>
+                                            <i class="star_mark" data-lucide="star"></i> -->
+                                            <img src="star.png" alt="">
+                                            <img src="star.png" alt="">
+                                            <img src="star.png" alt="">
+                                            <img src="star.png" alt="">
+                                            <img src="star (1).png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="size_choice">
+                                        <h1>Size</h1>
+                                        <div class="choice">
+                                            <button>39</button>
+                                            <button>40</button>
+                                            <button>41</button>
+                                            <button>42</button>
+                                        </div>
+                                    </div>
+                                    <div class="qty">
+                                        <h1>Quantity</h1>
+                                        <div class="btn_input_qty">
+                                            <button class="decrease">-</button>
+                                            <input type="number" value="1" id="quantity_input">
+                                            <button class="increase">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="btn_add_cart">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                            class="handbag"><i data-lucide="handbag"></i>
+                                            Add to Bage</button>
+                                        <button class="buy_now"><i data-lucide="handbag"></i> Buy Now</button>
+
+                                    </div>
+                                </div>
                         </div>
                     </div>
 
 
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>
 
     </div>
 
+    <footer> 
+        <div class="container_footer mt-5">
+            <div class="row_footer d-flex justify-content-center align-items-start gap-3">
+                <div class="col-12 col-md-6 col-lg-3 px-5">
+                    <div class="logo_footer">
+                        <img src="https://img.icons8.com/?size=100&id=wO7uLQ2bXGP-&format=png&color=000000" alt="">
+                        <h2 style="color: white;">PSA KROBAU</h2>
+                    </div>
+                    <div class="desc_footer" style="color: white;">
+                        <p>Your one-stop shop for the latest and greatest in fashion, electronics, and more.
+                            Experience
+                            seamless shopping with unbeatable deals and top-notch customer service.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 section_footer" >
+                    <h4>Quick Links</h4>
+                    <ul class="quick_links list-unstyled">
+                        <li class="footer_hover"><a href="#">Home</a></li>
+                        <li class="footer_hover"><a href="#">Shop</a></li>
+                        <li class="footer_hover"><a href="#">About Us</a></li>
+                        <li class="footer_hover"><a href="#">Contact</a></li>
+                        <li class="footer_hover"><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 section_footer">
+                    <h4>Customer Service</h4>
+                    <ul class="customer_service list-unstyled">
+                        <li class="footer_hover"><a href="#">Shipping & Returns</a></li>
+                        <li class="footer_hover"><a href="#">Order Tracking</a></li>
+                        <li class="footer_hover"><a href="#">Wishlist</a></li>
+                        <li class="footer_hover"><a href="#">Privacy Policy</a></li>
+                        <li class="footer_hover"><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 section_footer">
+                    <h4>Contact Us</h4>
+                    <ul class="contact_us list-unstyled" > 
+                        <li class="footer_hover"><i data-lucide="map-pin"></i> 123 Main Street, City, Country</li>
+                        <li class="footer_hover"><i data-lucide="phone"></i> +1 (234) 567-8901</li>
+                        <li class="footer_hover"><i data-lucide="mail"></i> info@example.com</li>
+                    </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 section_footer">
+                    <h4>Follow Us</h4>
+                    <div class="social_media">
+                        <a href="#"><i class="icon_footer" data-lucide="facebook"></i></a>
+                        <a href="#"><i class="icon_footer" data-lucide="twitter"></i></a>
+                        <a href="#"><i class="icon_footer" data-lucide="instagram"></i></a>
+                        <a href="#"><i class="icon_footer" data-lucide="linkedin"></i></a>
+                    </div>
+            </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 
 </html>
